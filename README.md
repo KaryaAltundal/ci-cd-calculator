@@ -1,1 +1,1 @@
-# CI/CD Calculator
+# CI/CD Calculator :)
