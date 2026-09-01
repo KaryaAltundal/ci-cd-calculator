@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get("/health")
 def health():
-    return {"status": "healthy )"}
+    return {"status": "healthy"}
 
 @app.get("/calculate")
 def calculate(a: float, b: float):
