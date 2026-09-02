@@ -22,8 +22,8 @@ def test_subtract():
     response = client.get("/subtract?a=10&b=5")
 
     assert response.status_code == 200
-<<<<<<< HEAD
+
     assert response.json() == {"result": 5}
-=======
+
     assert response.json() == {"result": 5}
->>>>>>> e2ed55547a6fbd3968627bc95a45d037761e8654
+
