@@ -9,3 +9,7 @@ def health():
 @app.get("/calculate")
 def calculate(a: float, b: float):
     return {"result": a + b}
+
+@app.get("/subtract")
+def subtract(a: float, b: float):
+    return {"result": a - b}
